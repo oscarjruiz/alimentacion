@@ -75,7 +75,7 @@ export function toggleHabito(fecha, id) {
 export function sumarAgua(fecha, delta) {
   const p = ensurePerfilFecha(state.perfil, fecha);
   const v = (p.objetivos[fecha].agua || 0) + delta;
-  p.objetivos[fecha].agua = Math.max(0, Math.min(8, v));
+  p.objetivos[fecha].agua = Math.max(0, Math.min(state.data.config.objetivosDiarios.aguaVasos, v));
   saveStorage();
 }
 

@@ -48,7 +48,7 @@ export default function render(mount, deps) {
   if (reto.estado === 'futuro') {
     banner = `<div class="card text-center text-sm text-[#7A8A9A] mb-3">El reto aún no comienza. ${reto.fase}. El registro de progreso estará disponible desde el inicio.</div>`;
   } else if (reto.estado === 'completado') {
-    banner = `<div class="card text-center text-sm text-[#B5E8C9] mb-3">🎉 ${reto.fase}. ¡Felicidades!</div>`;
+    banner = `<div class="card text-center text-sm text-[#3A4A5C] mb-3">🎉 ${reto.fase}. ¡Felicidades!</div>`;
   }
 
   mount.innerHTML = `

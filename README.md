@@ -58,7 +58,7 @@ El progreso del usuario (comidas marcadas, hábitos completados, ejercicios, agu
 
 ### GitHub Pages
 1. Push a GitHub.
-2. Settings → Pages → Source: rama `main`, carpeta `/`.
+2. Settings → Pages → Source: rama `master`, carpeta `/`.
 3. URL pública disponible en minutos.
 
 El sitio no requiere build paso porque Tailwind se carga por CDN y no hay dependencias.
