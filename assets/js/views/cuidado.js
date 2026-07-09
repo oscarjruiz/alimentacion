@@ -25,7 +25,7 @@ export default function render(mount, deps) {
 
   mount.innerHTML = `
     <header class="mb-3">
-      <h2 class="text-lg text-[#3A4A5C]">Cuidado Personal</h2>
+      <h2 class="text-lg text-[var(--c-text)]">Cuidado Personal</h2>
     </header>
     <ul class="space-y-2">
       ${habitos.map(h => {
@@ -35,26 +35,26 @@ export default function render(mount, deps) {
           return `
             <li class="card" data-h="${h.id}">
               <div class="flex justify-between items-center">
-                <span class="text-[#3A4A5C]">${h.icono} ${h.nombre}</span>
-                <span class="text-sm ${ok ? 'text-[#B5E8C9]' : 'text-[#7A8A9A]'}">${ok ? '✓' : agua + '/' + aguaObj}</span>
+                <span class="text-[var(--c-text)]">${h.icono} ${h.nombre}</span>
+                <span class="text-sm ${ok ? 'text-[var(--c-ok)]' : 'text-[var(--c-soft)]'}">${ok ? '✓' : agua + '/' + aguaObj}</span>
               </div>
               <div class="flex flex-wrap gap-1 mt-2" id="vasos">${vasos}</div>
               <div class="flex gap-2 mt-2">
-                <button id="agua-menos" class="px-3 py-1 rounded-lg bg-[#E0E8F0]">-</button>
-                <button id="agua-mas" class="px-3 py-1 rounded-lg bg-[#A7C7E7] text-white">+</button>
+                <button id="agua-menos" class="px-3 py-1 rounded-lg bg-[var(--c-pen)]">-</button>
+                <button id="agua-mas" class="px-3 py-1 rounded-lg bg-[var(--c-pri)] text-white">+</button>
               </div>
             </li>`;
         }
         const ok = marcados.includes(h.id);
         return `
           <li class="card flex justify-between items-center" data-h="${h.id}">
-            <span class="text-[#3A4A5C]">${h.icono} ${h.nombre}</span>
-            <button data-toggle="${h.id}" class="w-7 h-7 rounded-full ${ok ? 'bg-[#B5E8C9]' : 'bg-[#E0E8F0]'} text-sm">${ok ? '✓' : ''}</button>
+            <span class="text-[var(--c-text)]">${h.icono} ${h.nombre}</span>
+            <button data-toggle="${h.id}" class="w-7 h-7 rounded-full ${ok ? 'bg-[var(--c-ok)]' : 'bg-[var(--c-pen)]'} text-sm">${ok ? '✓' : ''}</button>
           </li>`;
       }).join('')}
     </ul>
-    ${completados === habitos.length ? '<div class="card text-center text-[#B5E8C9] font-medium">Día completo 🎉</div>' : ''}
-    <div class="fixed bottom-16 inset-x-0 max-w-md mx-auto px-4 py-2 bg-white/95 border-t border-[#E0E8F0] text-center text-sm text-[#3A4A5C]">
+    ${completados === habitos.length ? '<div class="card text-center text-[var(--c-ok)] font-medium">Día completo 🎉</div>' : ''}
+    <div class="fixed bottom-16 inset-x-0 max-w-md mx-auto px-4 py-2 bg-[var(--c-card)] border-t border-[var(--c-pen)] text-center text-sm text-[var(--c-text)]">
       ${completados} de ${habitos.length} hábitos completados · ${pct}%
     </div>
   `;

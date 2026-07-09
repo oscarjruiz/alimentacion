@@ -1,0 +1,41 @@
+﻿=== git log --oneline 557ad2d..360817b ===
+360817b docs: readme con guia de despliegue
+7846862 feat: avisos de reto futuro/completado y nota de persistencia local
+b2fa12f feat: app.js robusto con manejo de errores de carga
+ae09b70 feat: vista historial con grafico svg y progreso del reto
+1deaa08 feat: vista ejercicio con rutina del dia y completar
+ca8d48c feat: vista cuidado personal con habitos y widget de agua
+95c2e82 feat: vista alimentacion con tabs de comida y marcado
+38ab0df fix: meals.js usa wrapper menus.menus para acceso correcto al menu del perfil
+ade093d feat: dashboard con metricas y resumen de secciones
+1864799 feat: vista selector de perfil
+3ef5795 feat: router con hash routing y proteccion de perfil
+6553600 feat: meals.js con getComidaActual y mapeo dia del reto a menu
+e0f0ca1 feat: challenge.js con cuenta regresiva de 90 dias
+03db880 fix: exporta state desde store.js para uso de modulos downstream
+877d58b feat: store.js con persistencia LocalStorage y API de mutacion
+1f11eb0 feat: agrega 90 rutinas de ejercicio
+482ae1e feat: agrega menus semanales para oscar y sharon
+b3d8647 feat: agrega config y habits json
+4477c5a feat: scaffold SPA con Tailwind CDN y paleta pastel
+
+=== git diff --stat 557ad2d..360817b ===
+ README.md                       |   69 ++
+ assets/css/styles.css           |   60 ++
+ assets/data/config.json         |   13 +
+ assets/data/habits.json         |   10 +
+ assets/data/menus.json          |  662 +++++++++++++
+ assets/data/routines.json       | 2086 +++++++++++++++++++++++++++++++++++++++
+ assets/js/app.js                |   31 +
+ assets/js/challenge.js          |   40 +
+ assets/js/meals.js              |   45 +
+ assets/js/router.js             |   50 +
+ assets/js/store.js              |  135 +++
+ assets/js/views/alimentacion.js |   68 ++
+ assets/js/views/cuidado.js      |   74 ++
+ assets/js/views/dashboard.js    |  112 +++
+ assets/js/views/ejercicio.js    |   61 ++
+ assets/js/views/historial.js    |  116 +++
+ assets/js/views/selector.js     |   23 +
+ index.html                      |   34 +
+ 18 files changed, 3689 insertions(+)

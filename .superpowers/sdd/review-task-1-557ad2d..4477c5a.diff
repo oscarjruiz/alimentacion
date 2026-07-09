@@ -1,0 +1,126 @@
+﻿=== git log --oneline 557ad2d..4477c5a ===
+4477c5a feat: scaffold SPA con Tailwind CDN y paleta pastel
+
+=== git diff --stat 557ad2d..4477c5a ===
+ assets/css/styles.css | 60 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ assets/js/app.js      |  1 +
+ index.html            | 34 +++++++++++++++++++++++++++++
+ 3 files changed, 95 insertions(+)
+
+=== git diff -U10 557ad2d..4477c5a ===
+diff --git a/assets/css/styles.css b/assets/css/styles.css
+new file mode 100644
+index 0000000..03865b9
+--- /dev/null
++++ b/assets/css/styles.css
+@@ -0,0 +1,60 @@
++:root {
++  --color-bg: #F5F7FA;
++  --color-card: #FFFFFF;
++  --color-primary: #A7C7E7;
++  --color-secondary: #B5E8C9;
++  --color-accent: #D4C5F9;
++  --color-text: #3A4A5C;
++  --color-text-soft: #7A8A9A;
++  --color-success: #B5E8C9;
++  --color-pending: #E0E8F0;
++}
++
++* { box-sizing: border-box; }
++
++body {
++  margin: 0;
++  background: var(--color-bg);
++  color: var(--color-text);
++  font-family: 'Inter', system-ui, sans-serif;
++  font-weight: 400;
++  padding-bottom: 4rem; /* espacio para tab-bar fija */
++  -webkit-text-size-adjust: 100%;
++}
++
++h1, h2, h3 { font-weight: 600; margin: 0; }
++
++.app-container { max-width: 28rem; margin: 0 auto; padding: 1rem; }
++
++.card {
++  background: var(--color-card);
++  border-radius: 1rem;
++  box-shadow: 0 1px 3px rgba(58,74,92,0.08);
++  padding: 1rem;
++  margin-bottom: 0.75rem;
++}
++
++.fade-in { animation: fadeIn 0.18s ease-out; }
++@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
++
++.tab-scroll {
++  display: flex;
++  gap: 0.5rem;
++  overflow-x: auto;
++  -webkit-overflow-scrolling: touch;
++  padding-bottom: 0.25rem;
++}
++.tab-scroll::-webkit-scrollbar { display: none; }
++
++.progress-bar {
++  height: 0.5rem;
++  border-radius: 9999px;
++  background: var(--color-pending);
++  overflow: hidden;
++}
++.progress-bar > span {
++  display: block;
++  height: 100%;
++  background: var(--color-primary);
++  transition: width 0.3s ease;
++}
+\ No newline at end of file
+diff --git a/assets/js/app.js b/assets/js/app.js
+new file mode 100644
+index 0000000..31a5b73
+--- /dev/null
++++ b/assets/js/app.js
+@@ -0,0 +1 @@
++document.getElementById('app').innerHTML = '<p class="card">Scaffold OK</p>';
+\ No newline at end of file
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..dc59ce6
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,34 @@
++<!DOCTYPE html>
++<html lang="es">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>Reto 90 D├¡as ΓÇö Nutrici├│n y Bienestar</title>
++  <script src="https://cdn.tailwindcss.com"></script>
++  <link rel="preconnect" href="https://fonts.googleapis.com">
++  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
++  <link rel="stylesheet" href="assets/css/styles.css">
++</head>
++<body>
++  <div class="app-container">
++    <div id="app"></div>
++  </div>
++
++  <nav class="fixed bottom-0 inset-x-0 bg-white border-t border-[#E0E8F0] flex justify-around py-2 text-xs text-[#7A8A9A] z-10">
++    <a href="#dashboard" class="flex flex-col items-center gap-0.5">
++      <span class="text-lg">≡ƒÅá</span><span>Inicio</span>
++    </a>
++    <a href="#alimentacion" class="flex flex-col items-center gap-0.5">
++      <span class="text-lg">≡ƒì╜∩╕Å</span><span>Alimentaci├│n</span>
++    </a>
++    <a href="#cuidado" class="flex flex-col items-center gap-0.5">
++      <span class="text-lg">≡ƒî┐</span><span>Cuidado</span>
++    </a>
++    <a href="#ejercicio" class="flex flex-col items-center gap-0.5">
++      <span class="text-lg">≡ƒÆ¬</span><span>Ejercicio</span>
++    </a>
++  </nav>
++
++  <script type="module" src="assets/js/app.js"></script>
++</body>
++</html>
+\ No newline at end of file

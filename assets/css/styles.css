@@ -1,25 +1,36 @@
 :root {
-  --color-bg: #F5F7FA;
-  --color-card: #FFFFFF;
-  --color-primary: #A7C7E7;
-  --color-secondary: #B5E8C9;
-  --color-accent: #D4C5F9;
-  --color-text: #3A4A5C;
-  --color-text-soft: #7A8A9A;
-  --color-success: #B5E8C9;
-  --color-pending: #E0E8F0;
+  --c-text: #D4DAF0;
+  --c-soft: #7A82A0;
+  --c-pri: #7AA2F7;
+  --c-ok: #73D05A;
+  --c-pen: #353B54;
+  --c-bg: #1A1B26;
+  --c-accent: #9D7CD8;
+  --c-card: #24283B;
+}
+
+.dark {
+  --c-text: #C0CAF5;
+  --c-soft: #565F89;
+  --c-pri: #7AA2F7;
+  --c-ok: #73D05A;
+  --c-pen: #292E42;
+  --c-bg: #161720;
+  --c-accent: #9D7CD8;
+  --c-card: #1E2033;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: var(--c-bg);
+  color: var(--c-text);
   font-family: 'Inter', system-ui, sans-serif;
   font-weight: 400;
-  padding-bottom: 4rem; /* espacio para tab-bar fija */
+  padding-bottom: 4rem;
   -webkit-text-size-adjust: 100%;
+  transition: background 0.2s, color 0.2s;
 }
 
 h1, h2, h3 { font-weight: 600; margin: 0; }
@@ -27,11 +38,13 @@ h1, h2, h3 { font-weight: 600; margin: 0; }
 .app-container { max-width: 28rem; margin: 0 auto; padding: 1rem; }
 
 .card {
-  background: var(--color-card);
-  border-radius: 1rem;
-  box-shadow: 0 1px 3px rgba(58,74,92,0.08);
+  background: var(--c-card);
+  border: 1px solid var(--c-pen);
+  border-left: 3px solid var(--c-pri);
+  border-radius: 12px;
   padding: 1rem;
   margin-bottom: 0.75rem;
+  transition: background 0.2s, border-color 0.2s;
 }
 
 .fade-in { animation: fadeIn 0.18s ease-out; }
@@ -49,12 +62,18 @@ h1, h2, h3 { font-weight: 600; margin: 0; }
 .progress-bar {
   height: 0.5rem;
   border-radius: 9999px;
-  background: var(--color-pending);
+  background: var(--c-pen);
   overflow: hidden;
 }
 .progress-bar > span {
   display: block;
   height: 100%;
-  background: var(--color-primary);
+  background: var(--c-pri);
+  border-radius: 9999px;
   transition: width 0.3s ease;
 }
+
+input[type="number"] { color: var(--c-text); }
+input[type="number"]::placeholder { color: var(--c-soft); }
+
+::-webkit-calendar-picker-indicator { filter: invert(1); }

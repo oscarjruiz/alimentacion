@@ -1,0 +1,3 @@
+Review package for Task 5 (store.js including fix).
+Range: 1f11eb0..03db880
+Files: assets/js/store.js (created + one-keyword export fix)

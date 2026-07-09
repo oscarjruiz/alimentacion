@@ -1,6 +1,6 @@
 import { COMIDAS, COMIDAS_LABEL, getComidaActual, getMenuReto } from '../meals.js';
 import { getEstadoReto } from '../challenge.js';
-import { state, getComidas, getHabitos, getAgua, getPasos, sumarAgua, setPasos, isRutinaCompletada, getPerfilActivo } from '../store.js';
+import { state, getComidas, getHabitos, getAgua, getPasos, sumarAgua, setPasos, isRutinaCompletada, getPerfilActivo, getComidaCustom, getGustico } from '../store.js';
 
 function hoyLocal() {
   const d = new Date();
@@ -12,7 +12,14 @@ function kcalConsumidas(fecha) {
   const menu = getMenuReto(getEstadoReto().dia);
   if (!menu) return 0;
   const marcadas = getComidas(fecha);
-  return marcadas.reduce((acc, c) => acc + (menu[c]?.kcalTotal || 0), 0);
+  const foods = state.data.foods.alimentos;
+  return marcadas.reduce((acc, c) => {
+    const g = getGustico(fecha, c);
+    if (g) return acc + g.kcal;
+    const custom = getComidaCustom(fecha, c);
+    if (custom) return acc + custom.reduce((s, id) => { const f = foods.find(a => a.id === id); return s + (f ? f.kcal : 0); }, 0);
+    return acc + (menu[c]?.kcalTotal || 0);
+  }, 0);
 }
 
 export default function render(mount, deps) {
@@ -46,16 +53,16 @@ export default function render(mount, deps) {
 
   let banner = '';
   if (reto.estado === 'futuro') {
-    banner = `<div class="card text-center text-sm text-[#7A8A9A] mb-3">El reto aún no comienza. ${reto.fase}. El registro de progreso estará disponible desde el inicio.</div>`;
+    banner = `<div class="card text-center text-sm text-[var(--c-soft)] mb-3">El reto aún no comienza. ${reto.fase}. El registro de progreso estará disponible desde el inicio.</div>`;
   } else if (reto.estado === 'completado') {
-    banner = `<div class="card text-center text-sm text-[#3A4A5C] mb-3">🎉 ${reto.fase}. ¡Felicidades!</div>`;
+    banner = `<div class="card text-center text-sm text-[var(--c-text)] mb-3">🎉 ${reto.fase}. ¡Felicidades!</div>`;
   }
 
   mount.innerHTML = `
     ${banner}<header class="flex items-center justify-between mb-3">
       <div>
-        <a href="#selector" class="text-sm text-[#7A8A9A] hover:underline">${perfilNombre} ⮕</a>
-        <h2 class="text-lg text-[#3A4A5C]">${reto.fase}</h2>
+        <a href="#selector" class="text-sm text-[var(--c-soft)] hover:underline">${perfilNombre} ⮕</a>
+        <h2 class="text-lg text-[var(--c-text)]">${reto.fase}</h2>
       </div>
       <a href="#historial" class="text-2xl" aria-label="Historial">📊</a>
     </header>
@@ -66,42 +73,42 @@ export default function render(mount, deps) {
     </div>
 
     <div class="card flex items-center justify-between">
-      <div><div class="text-sm text-[#7A8A9A]">Hábitos</div><div class="text-xl">${habCompleted}/${habTotal}</div></div>
-      <a href="#cuidado" class="text-sm text-[#A7C7E7]">Ver todos</a>
+      <div><div class="text-sm text-[var(--c-soft)]">Hábitos</div><div class="text-xl">${habCompleted}/${habTotal}</div></div>
+      <a href="#cuidado" class="text-sm text-[var(--c-pri)]">Ver todos</a>
     </div>
 
     <div class="card flex items-center justify-between gap-2">
-      <div><div class="text-sm text-[#7A8A9A]">Agua</div><div class="text-xl">${agua}/${aguaObj} vasos</div></div>
+      <div><div class="text-sm text-[var(--c-soft)]">Agua</div><div class="text-xl">${agua}/${aguaObj} vasos</div></div>
       <div class="flex gap-2">
-        <button id="agua-menos" class="w-8 h-8 rounded-full bg-[#E0E8F0] text-lg">-</button>
-        <button id="agua-mas" class="w-8 h-8 rounded-full bg-[#A7C7E7] text-lg">+</button>
+        <button id="agua-menos" class="w-8 h-8 rounded-full bg-[var(--c-pen)] text-lg">-</button>
+        <button id="agua-mas" class="w-8 h-8 rounded-full bg-[var(--c-pri)] text-lg">+</button>
       </div>
     </div>
 
     <div class="card flex items-center justify-between">
-      <div><div class="text-sm text-[#7A8A9A]">Pasos</div>
-        <input id="pasos-input" type="number" inputmode="numeric" value="${pasos}" class="w-24 border-b border-[#E0E8F0] bg-transparent text-xl text-[#3A4A5C] outline-none">
-        <span class="text-xs text-[#7A8A9A]">/ ${pasosObj}</span>
+      <div><div class="text-sm text-[var(--c-soft)]">Pasos</div>
+        <input id="pasos-input" type="number" inputmode="numeric" value="${pasos}" class="w-24 border-b border-[var(--c-pen)] bg-transparent text-xl text-[var(--c-text)] outline-none">
+        <span class="text-xs text-[var(--c-soft)]">/ ${pasosObj}</span>
       </div>
     </div>
 
     <div class="card flex items-center justify-between">
-      <div><div class="text-sm text-[#7A8A9A]">Rutina</div><div class="text-xl">${rutinaOk ? 'Completada ✅' : 'Pendiente'}</div></div>
-      <a href="#ejercicio" class="text-sm text-[#A7C7E7]">Ver rutina</a>
+      <div><div class="text-sm text-[var(--c-soft)]">Rutina</div><div class="text-xl">${rutinaOk ? 'Completada ✅' : 'Pendiente'}</div></div>
+      <a href="#ejercicio" class="text-sm text-[var(--c-pri)]">Ver rutina</a>
     </div>
 
-    <h3 class="text-sm text-[#7A8A9A] mt-4 mb-2">ALIMENTACIÓN · ${COMIDAS_LABEL[comidaActual]}</h3>
+    <h3 class="text-sm text-[var(--c-soft)] mt-4 mb-2">ALIMENTACIÓN · ${COMIDAS_LABEL[comidaActual]}</h3>
     <div class="card">
-      <div class="font-medium text-[#3A4A5C]">${platoActual}</div>
-      <div class="text-xs text-[#7A8A9A] mb-2">${kcalActual} kcal</div>
-      <a href="#alimentacion" class="text-sm text-[#A7C7E7]">Ver detalle</a>
+      <div class="font-medium text-[var(--c-text)]">${platoActual}</div>
+      <div class="text-xs text-[var(--c-soft)] mb-2">${kcalActual} kcal</div>
+      <a href="#alimentacion" class="text-sm text-[var(--c-pri)]">Ver detalle</a>
     </div>
 
-    <h3 class="text-sm text-[#7A8A9A] mt-4 mb-2">EJERCICIO · Día ${reto.dia}</h3>
+    <h3 class="text-sm text-[var(--c-soft)] mt-4 mb-2">EJERCICIO · Día ${reto.dia}</h3>
     <div class="card">
-      <div class="font-medium text-[#3A4A5C]">${rutinaHoy ? rutinaHoy.nombre : '—'}</div>
-      <div class="text-xs text-[#7A8A9A] mb-2">${ejTotal} ejercicios</div>
-      <a href="#ejercicio" class="text-sm text-[#A7C7E7]">Ver rutina</a>
+      <div class="font-medium text-[var(--c-text)]">${rutinaHoy ? rutinaHoy.nombre : '—'}</div>
+      <div class="text-xs text-[var(--c-soft)] mb-2">${ejTotal} ejercicios</div>
+      <a href="#ejercicio" class="text-sm text-[var(--c-pri)]">Ver rutina</a>
     </div>
   `;
 

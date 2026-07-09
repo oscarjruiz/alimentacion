@@ -2,2083 +2,3061 @@
   "rutinas": [
     {
       "dia": 1,
-      "nombre": "Full Body",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "15"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "12"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "30s"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 2,
-      "nombre": "Cardio",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "20"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 3,
-      "nombre": "Core",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "20"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "20s"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "15"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 4,
-      "nombre": "Pierna",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
-          "series": 3,
-          "reps": "12"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 5,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
-          "series": 3,
-          "reps": "15"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "12"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 6,
-      "nombre": "Descanso Activo",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
+          "e": "Caminata ligera o trote suave",
           "series": 1,
-          "reps": "20min"
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
+          "e": "Flow de Yoga: Saludo al Sol",
+          "series": 3,
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
+        },
+        {
+          "id": "ex-3",
+          "e": "Estiramientos de cuerpo completo",
           "series": 1,
-          "reps": "10min"
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 7,
-      "nombre": "Cardio",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "40"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "10"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 8,
-      "nombre": "Full Body",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "30s"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 9,
-      "nombre": "Cardio",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "40"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "10"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "20"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 10,
-      "nombre": "Core",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
-          "series": 3,
-          "reps": "20s"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 11,
-      "nombre": "Pierna",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
-          "series": 3,
-          "reps": "12"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "15"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 12,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "15"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
-          "series": 3,
-          "reps": "12"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 13,
-      "nombre": "Descanso Activo",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Sentadilla con press de hombro",
+          "series": 3,
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Peso muerto rumano con remo",
+          "series": 3,
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
+        },
+        {
+          "id": "ex-3",
+          "e": "Zancadas alternas con curl de bíceps",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 14,
-      "nombre": "Cardio",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "20"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 15,
-      "nombre": "Full Body",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "15"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "12"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "30s"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 16,
-      "nombre": "Cardio",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 17,
-      "nombre": "Core",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
-          "series": 3,
-          "reps": "20s"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "15"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 18,
-      "nombre": "Pierna",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "12"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
-          "series": 3,
-          "reps": "15"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 19,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "12"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "15"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "12"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 20,
-      "nombre": "Descanso Activo",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
+        },
+        {
+          "id": "ex-3",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
+          "series": 3,
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 21,
-      "nombre": "Cardio",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "40"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "10"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "20"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 22,
-      "nombre": "Full Body",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "30s"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 23,
-      "nombre": "Cardio",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "20"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 24,
-      "nombre": "Core",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "20s"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
-          "series": 3,
-          "reps": "15"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 25,
-      "nombre": "Pierna",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "15"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "12"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 26,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
-          "series": 3,
-          "reps": "15"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "12"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 27,
-      "nombre": "Descanso Activo",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Plancha con toque de hombros",
+          "series": 3,
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Russian Twists con mancuerna",
+          "series": 3,
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas + tijeras",
+          "series": 3,
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 28,
-      "nombre": "Cardio",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 29,
-      "nombre": "Full Body",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "30s"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 30,
-      "nombre": "Cardio",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "10"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
-          "series": 3,
-          "reps": "20"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 31,
-      "nombre": "Core",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "20"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "20s"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 32,
-      "nombre": "Pierna",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
-          "series": 3,
-          "reps": "12"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "15"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 33,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "12"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "15"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "12"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 34,
-      "nombre": "Descanso Activo",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
+        },
+        {
+          "id": "ex-3",
+          "e": "Sentadilla búlgara",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 35,
-      "nombre": "Cardio",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "20"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 36,
-      "nombre": "Full Body",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "12"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
-          "series": 3,
-          "reps": "30s"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 37,
-      "nombre": "Cardio",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "40"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "10"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 38,
-      "nombre": "Core",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
-          "series": 3,
-          "reps": "20s"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "15"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 39,
-      "nombre": "Pierna",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "15"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "12"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "15"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 40,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
-          "series": 3,
-          "reps": "15"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "12"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 41,
-      "nombre": "Descanso Activo",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
+        },
+        {
+          "id": "ex-3",
+          "e": "Curl de bíceps + press francés",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 42,
-      "nombre": "Cardio",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "10"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
-          "series": 3,
-          "reps": "20"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 43,
-      "nombre": "Full Body",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "15"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "12"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "30s"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 44,
-      "nombre": "Cardio",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "20"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 45,
-      "nombre": "Core",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "20"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "20s"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "15"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 46,
-      "nombre": "Pierna",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
-          "series": 3,
-          "reps": "12"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 47,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
-          "series": 3,
-          "reps": "15"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "12"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 48,
-      "nombre": "Descanso Activo",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
+          "e": "Caminata ligera o trote suave",
           "series": 1,
-          "reps": "20min"
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
+          "e": "Flow de Yoga: Saludo al Sol",
+          "series": 3,
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
+        },
+        {
+          "id": "ex-3",
+          "e": "Estiramientos de cuerpo completo",
           "series": 1,
-          "reps": "10min"
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 49,
-      "nombre": "Cardio",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "40"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "10"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 50,
-      "nombre": "Full Body",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "30s"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 51,
-      "nombre": "Cardio",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "40"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "10"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "20"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 52,
-      "nombre": "Core",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
-          "series": 3,
-          "reps": "20s"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 53,
-      "nombre": "Pierna",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
-          "series": 3,
-          "reps": "12"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "15"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 54,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "15"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
-          "series": 3,
-          "reps": "12"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 55,
-      "nombre": "Descanso Activo",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Sentadilla con press de hombro",
+          "series": 3,
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Peso muerto rumano con remo",
+          "series": 3,
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
+        },
+        {
+          "id": "ex-3",
+          "e": "Zancadas alternas con curl de bíceps",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 56,
-      "nombre": "Cardio",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "20"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 57,
-      "nombre": "Full Body",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "15"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "12"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "30s"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 58,
-      "nombre": "Cardio",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 59,
-      "nombre": "Core",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
-          "series": 3,
-          "reps": "20s"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "15"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 60,
-      "nombre": "Pierna",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "12"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
-          "series": 3,
-          "reps": "15"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 61,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "12"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "15"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "12"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 62,
-      "nombre": "Descanso Activo",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
+        },
+        {
+          "id": "ex-3",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
+          "series": 3,
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 63,
-      "nombre": "Cardio",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "40"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "10"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "20"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 64,
-      "nombre": "Full Body",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "30s"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 65,
-      "nombre": "Cardio",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "20"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 66,
-      "nombre": "Core",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "20s"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
-          "series": 3,
-          "reps": "15"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 67,
-      "nombre": "Pierna",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "15"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "12"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 68,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
-          "series": 3,
-          "reps": "15"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "12"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 69,
-      "nombre": "Descanso Activo",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Plancha con toque de hombros",
+          "series": 3,
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Russian Twists con mancuerna",
+          "series": 3,
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas + tijeras",
+          "series": 3,
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 70,
-      "nombre": "Cardio",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 71,
-      "nombre": "Full Body",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "30s"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 72,
-      "nombre": "Cardio",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "10"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
-          "series": 3,
-          "reps": "20"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 73,
-      "nombre": "Core",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "20"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "20s"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 74,
-      "nombre": "Pierna",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
-          "series": 3,
-          "reps": "12"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "15"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 75,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "12"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "15"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "12"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 76,
-      "nombre": "Descanso Activo",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
+        },
+        {
+          "id": "ex-3",
+          "e": "Sentadilla búlgara",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 77,
-      "nombre": "Cardio",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "20"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 78,
-      "nombre": "Full Body",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "12"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
-          "series": 3,
-          "reps": "30s"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 79,
-      "nombre": "Cardio",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "40"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "10"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "20"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 80,
-      "nombre": "Core",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
-          "series": 3,
-          "reps": "20"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
-          "series": 3,
-          "reps": "20s"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "15"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 81,
-      "nombre": "Pierna",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "15"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "12"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "15"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 82,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
-          "series": 3,
-          "reps": "15"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "12"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 83,
-      "nombre": "Descanso Activo",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
-          "series": 1,
-          "reps": "20min"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
-          "series": 1,
-          "reps": "10min"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
+        },
+        {
+          "id": "ex-3",
+          "e": "Curl de bíceps + press francés",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 84,
-      "nombre": "Cardio",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Caminata ligera o trote suave",
+          "series": 1,
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
+          "e": "Flow de Yoga: Saludo al Sol",
           "series": 3,
-          "reps": "10"
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
-          "series": 3,
-          "reps": "20"
+          "e": "Estiramientos de cuerpo completo",
+          "series": 1,
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     },
     {
       "dia": 85,
-      "nombre": "Full Body",
+      "nombre": "Full Body con Mancuernas",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
+          "e": "Sentadilla con press de hombro",
           "series": 3,
-          "reps": "15"
+          "reps": "12",
+          "tips": "Mancuernas a la altura de hombros. Baja en sentadilla y al subir extiende brazos sobre la cabeza. Activa core y glúteos."
         },
         {
           "id": "ex-2",
-          "e": "Flexiones",
+          "e": "Peso muerto rumano con remo",
           "series": 3,
-          "reps": "12"
+          "reps": "12",
+          "tips": "Piernas semiflexionadas, espalda recta. Baja las mancuernas por las espinillas y al subir haz un remo apretando escápulas."
         },
         {
           "id": "ex-3",
-          "e": "Plancha",
+          "e": "Zancadas alternas con curl de bíceps",
           "series": 3,
-          "reps": "30s"
+          "reps": "10 c/lado",
+          "tips": "Paso amplio hacia adelante, rodilla no pasa la punta del pie. Haz curl al bajar en la zancada."
+        },
+        {
+          "id": "ex-4",
+          "e": "Plancha con remo unilateral",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Posición de plancha con mancuernas. Rema una mancuerna manteniendo cadera estable. Sin girar el torso."
         }
       ]
     },
     {
       "dia": 86,
-      "nombre": "Cardio",
+      "nombre": "Cardio HIIT",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Jumping jacks",
-          "series": 3,
-          "reps": "40"
+          "e": "Jumping Jacks con mancuernas ligeras",
+          "series": 4,
+          "reps": "45 seg",
+          "tips": "Ritmo constante. Mancuernas de 1-2 kg. Brazos abren y cierran coordinados con piernas. Respira rítmicamente."
         },
         {
           "id": "ex-2",
-          "e": "Burpees",
-          "series": 3,
-          "reps": "10"
+          "e": "Mountain Climbers",
+          "series": 4,
+          "reps": "40 seg",
+          "tips": "Manos al suelo, espalda plana. Lleva rodillas al pecho alternando rápido. Mantén el core contraído."
         },
         {
           "id": "ex-3",
-          "e": "Mountain climbers",
+          "e": "Burpees sin flexión",
+          "series": 4,
+          "reps": "12",
+          "tips": "Desde pie, manos al suelo, salto de pies atrás, salto de pies adelante, salto vertical. Modifica sin flexión para mantener ritmo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Skater Hops + Sentadilla",
           "series": 3,
-          "reps": "20"
+          "reps": "20",
+          "tips": "Salto lateral como patinador, al aterrizar haces sentadilla. Alterna lados. Mantén pecho arriba."
         }
       ]
     },
     {
       "dia": 87,
-      "nombre": "Core",
+      "nombre": "Core y Abdominales",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Crunches",
+          "e": "Plancha con toque de hombros",
           "series": 3,
-          "reps": "20"
+          "reps": "45 seg",
+          "tips": "Antebrazos al suelo. Toca hombro alterno sin mover cadera. Core firme, glúteos apretados. No arquees la espalda."
         },
         {
           "id": "ex-2",
-          "e": "Plancha lateral",
+          "e": "Russian Twists con mancuerna",
           "series": 3,
-          "reps": "20s"
+          "reps": "20",
+          "tips": "Sentado en V, pies elevados. Gira torso con mancuerna de lado a lado. Movimiento controlado, no uses inercia."
         },
         {
           "id": "ex-3",
-          "e": "Elevación de piernas",
+          "e": "Elevación de piernas + tijeras",
           "series": 3,
-          "reps": "15"
+          "reps": "15 c/u",
+          "tips": "Acostado boca arriba, piernas extendidas. Eleva a 45° y haz tijeras sin tocar el suelo. Zona lumbar pegada al piso."
+        },
+        {
+          "id": "ex-4",
+          "e": "Dead Bug con mancuerna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Boca arriba, brazos y piernas arriba. Extiende brazo y pierna opuesta manteniendo core. La mancuerna añade resistencia."
         }
       ]
     },
     {
       "dia": 88,
-      "nombre": "Pierna",
+      "nombre": "Pierna y Glúteos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Sentadillas",
-          "series": 3,
-          "reps": "15"
+          "e": "Sentadilla goblet con mancuerna",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sostén una mancuerna contra el pecho. Baja hasta que muslos estén paralelos al suelo. Rodillas alineadas con pies. Empuja con talones."
         },
         {
           "id": "ex-2",
-          "e": "Zancadas",
-          "series": 3,
-          "reps": "12"
+          "e": "Puente de glúteo con peso",
+          "series": 4,
+          "reps": "15",
+          "tips": "Acostado boca arriba, mancuerna sobre cadera. Eleva cadera apretando glúteos. Pausa 2 segundos arriba. Rodillas a 90 grados."
         },
         {
           "id": "ex-3",
-          "e": "Puentes de glúteo",
+          "e": "Sentadilla búlgara",
           "series": 3,
-          "reps": "15"
+          "reps": "10 c/lado",
+          "tips": "Pie trasero en silla o sofá. Baja controlado con mancuernas a los lados. Rodilla delantera no sobrepasa punta del pie."
+        },
+        {
+          "id": "ex-4",
+          "e": "Peso muerto a una pierna",
+          "series": 3,
+          "reps": "10 c/lado",
+          "tips": "Con mancuerna en mano contraria a pierna de apoyo. Inclina torso adelante extendiendo pierna libre atrás. Espalda recta siempre."
         }
       ]
     },
     {
       "dia": 89,
-      "nombre": "Empuje/Tirón",
+      "nombre": "Brazos, Hombros y Espalda",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Flexiones",
-          "series": 3,
-          "reps": "12"
+          "e": "Press de hombro sentado",
+          "series": 4,
+          "reps": "12",
+          "tips": "Sentado con respaldo, mancuernas a altura de orejas. Extiende brazos sobre la cabeza sin bloquear codos. Hombros lejos de orejas."
         },
         {
           "id": "ex-2",
-          "e": "Remo con botella",
-          "series": 3,
-          "reps": "15"
+          "e": "Remo inclinado con mancuernas",
+          "series": 4,
+          "reps": "12",
+          "tips": "Torso inclinado 45°, espalda plana. Rema mancuernas hacia cadera apretando escápulas. Codos cerca del cuerpo."
         },
         {
           "id": "ex-3",
-          "e": "Press de hombro",
+          "e": "Curl de bíceps + press francés",
           "series": 3,
-          "reps": "12"
+          "reps": "12 c/u",
+          "tips": "Superset: curl normal de bíceps seguido de press francés (extensión de tríceps sobre cabeza). Sin descanso entre ejercicios."
+        },
+        {
+          "id": "ex-4",
+          "e": "Elevaciones laterales + frontales",
+          "series": 3,
+          "reps": "12 c/u",
+          "tips": "De pie, mancuernas ligeras. Eleva brazos a los lados hasta altura de hombros, luego al frente. Controla la bajada, no uses impulso."
         }
       ]
     },
     {
       "dia": 90,
-      "nombre": "Descanso Activo",
+      "nombre": "Descanso Activo · Yoga y Estiramientos",
       "ejercicios": [
         {
           "id": "ex-1",
-          "e": "Caminata",
+          "e": "Caminata ligera o trote suave",
           "series": 1,
-          "reps": "20min"
+          "reps": "20 min",
+          "tips": "Ritmo conversacional. Al aire libre o en sitio. Aprovecha para despejar la mente y mover el cuerpo sin exigencia."
         },
         {
           "id": "ex-2",
-          "e": "Estiramiento",
+          "e": "Flow de Yoga: Saludo al Sol",
+          "series": 3,
+          "reps": "5 rondas",
+          "tips": "Secuencia fluida: montaña → flexión al frente → plancha → cobra → perro boca abajo → montaña. Respira con cada transición."
+        },
+        {
+          "id": "ex-3",
+          "e": "Estiramientos de cuerpo completo",
           "series": 1,
-          "reps": "10min"
+          "reps": "30 seg c/u",
+          "tips": "Cuádriceps, isquiotibiales, glúteos, espalda baja, hombros y cuello. Mantén cada estiramiento sin rebotar. Respira profundo."
+        },
+        {
+          "id": "ex-4",
+          "e": "Roller de liberación miofascial (opcional)",
+          "series": 1,
+          "reps": "5 min",
+          "tips": "Si tienes foam roller, pásalo por gemelos, isquiotibiales, glúteos y espalda alta. Evita zona lumbar directa."
         }
       ]
     }

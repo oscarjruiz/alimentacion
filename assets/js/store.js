@@ -16,7 +16,7 @@ function saveStorage() {
 }
 
 function emptyPerfile() {
-  return { comidas: {}, habitos: {}, ejercicios: {}, rutinaCompletada: {}, objetivos: {} };
+  return { comidas: {}, comidasCustom: {}, gusticos: {}, habitos: {}, ejercicios: {}, rutinaCompletada: {}, objetivos: {} };
 }
 
 export function init(perfiles) {
@@ -34,6 +34,10 @@ export function init(perfiles) {
 function ensurePerfilFecha(perfilId, fecha) {
   const p = state.storage.perfiles[perfilId];
   if (!p.comidas[fecha]) p.comidas[fecha] = [];
+  if (!p.comidasCustom) p.comidasCustom = {};
+  if (!p.comidasCustom[fecha]) p.comidasCustom[fecha] = {};
+  if (!p.gusticos) p.gusticos = {};
+  if (!p.gusticos[fecha]) p.gusticos[fecha] = {};
   if (!p.habitos[fecha]) p.habitos[fecha] = [];
   if (!p.ejercicios[fecha]) p.ejercicios[fecha] = [];
   if (p.rutinaCompletada[fecha] === undefined) p.rutinaCompletada[fecha] = false;
@@ -125,6 +129,114 @@ export function getPerfilFecha(fecha) {
     agua: p.objetivos[fecha].agua,
     pasos: p.objetivos[fecha].pasos
   };
+}
+
+export function setComidaCustom(fecha, comida, foodIds) {
+  const p = ensurePerfilFecha(state.perfil, fecha);
+  if (!foodIds || foodIds.length === 0) {
+    delete p.comidasCustom[fecha][comida];
+  } else {
+    p.comidasCustom[fecha][comida] = foodIds;
+  }
+  saveStorage();
+}
+
+export function getComidaCustom(fecha, comida) {
+  const p = state.storage.perfiles[state.perfil];
+  if (!p || !p.comidasCustom) return null;
+  return p.comidasCustom[fecha]?.[comida] || null;
+}
+
+function getWeekKey(fecha) {
+  const d = new Date(fecha + 'T00:00:00');
+  const day = d.getDay();
+  const monday = new Date(d);
+  monday.setDate(d.getDate() - (day === 0 ? 6 : day - 1));
+  return monday.toISOString().slice(0, 10);
+}
+
+const PRINCIPALES = ['desayuno', 'almuerzo', 'comida'];
+const SNACKS = ['mediasNueves', 'onces'];
+
+export function setGustico(fecha, comida, desc, kcal) {
+  const p = ensurePerfilFecha(state.perfil, fecha);
+  if (!desc || !kcal) {
+    delete p.gusticos[fecha][comida];
+  } else {
+    p.gusticos[fecha][comida] = { desc, kcal: parseInt(kcal) || 0 };
+  }
+  saveStorage();
+}
+
+export function getGustico(fecha, comida) {
+  const p = state.storage.perfiles[state.perfil];
+  if (!p || !p.gusticos) return null;
+  return p.gusticos[fecha]?.[comida] || null;
+}
+
+export function countGusticosSemana(fecha) {
+  const p = state.storage.perfiles[state.perfil];
+  if (!p || !p.gusticos) return { principales: 0, snacks: 0 };
+  const wk = getWeekKey(fecha);
+  let prin = 0, snk = 0;
+  for (const f of Object.keys(p.gusticos)) {
+    if (getWeekKey(f) !== wk) continue;
+    for (const c of Object.keys(p.gusticos[f])) {
+      if (PRINCIPALES.includes(c)) prin++;
+      else if (SNACKS.includes(c)) snk++;
+    }
+  }
+  return { principales: prin, snacks: snk };
+}
+
+export function canUseGustico(fecha, comida) {
+  const counts = countGusticosSemana(fecha);
+  if (PRINCIPALES.includes(comida)) return counts.principales < 2;
+  if (SNACKS.includes(comida)) return counts.snacks < 1;
+  return false;
+}
+
+export function setPeso(fecha, peso) {
+  const p = ensurePerfilFecha(state.perfil, fecha);
+  if (!p.peso) p.peso = {};
+  p.peso[fecha] = parseFloat(peso) || 0;
+  saveStorage();
+}
+
+export function getPeso(fecha) {
+  const p = state.storage.perfiles[state.perfil];
+  if (!p || !p.peso) return null;
+  return p.peso[fecha] || null;
+}
+
+export function getPesosRecientes(dias) {
+  const p = state.storage.perfiles[state.perfil];
+  if (!p || !p.peso) return [];
+  const hoy = new Date();
+  const result = [];
+  for (let i = dias - 1; i >= 0; i--) {
+    const d = new Date(hoy.getTime() - i * 86400000);
+    const off = d.getTimezoneOffset();
+    const f = new Date(d - off * 60000).toISOString().slice(0, 10);
+    const v = p.peso[f];
+    if (v) result.push({ fecha: f, peso: v });
+  }
+  return result;
+}
+
+export function getRacha() {
+  const p = state.storage.perfiles[state.perfil];
+  if (!p) return 0;
+  const hoy = new Date();
+  let racha = 0;
+  for (let i = 0; i < 90; i++) {
+    const d = new Date(hoy.getTime() - i * 86400000);
+    const off = d.getTimezoneOffset();
+    const f = new Date(d - off * 60000).toISOString().slice(0, 10);
+    if (p.rutinaCompletada[f]) racha++;
+    else break;
+  }
+  return racha;
 }
 
 function challengeDiaFromFecha(fecha) {

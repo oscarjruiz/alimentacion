@@ -43,3 +43,14 @@ export function getMenuReto(diaReto) {
   const diaSem = getDiaSemanaForReto(diaReto);
   return state.data.menus.menus[perfil][diaSem];
 }
+
+export function getMenuRetoFor(diaReto, perfil) {
+  const diaSem = getDiaSemanaForReto(diaReto);
+  return state.data.menus.menus[perfil][diaSem];
+}
+
+export function getOtroPerfil() {
+  const perfiles = state.data.config.perfiles;
+  const otro = perfiles.find(p => p.id !== state.perfil);
+  return otro ? otro.id : null;
+}

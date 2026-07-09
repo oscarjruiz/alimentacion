@@ -4,15 +4,15 @@ export default function render(mount, deps) {
   mount.innerHTML = `
     <div class="min-h-[60vh] flex flex-col items-center justify-center gap-4">
       <div class="text-center mb-4">
-        <h1 class="text-2xl text-[#3A4A5C] mb-1">Reto 90 Días</h1>
-        <p class="text-sm text-[#7A8A9A]">Elige tu perfil para comenzar</p>
+        <h1 class="text-2xl text-[var(--c-text)] mb-1">Reto 90 Días</h1>
+        <p class="text-sm text-[var(--c-soft)]">Elige tu perfil para comenzar</p>
       </div>
       ${perfiles.map(p => `
-        <button data-id="${p.id}" class="card w-full max-w-xs py-6 text-center text-xl font-semibold text-[#3A4A5C] hover:bg-[#F5F7FA] transition">
+        <button data-id="${p.id}" class="card w-full max-w-xs py-6 text-center text-xl font-semibold text-[var(--c-text)] hover:bg-[var(--c-bg)] transition">
           ${p.nombre}
         </button>
       `).join('')}
-      <p class="text-xs text-[#7A8A9A] text-center max-w-xs">Tu progreso se guarda localmente en este dispositivo.</p>
+      <p class="text-xs text-[var(--c-soft)] text-center max-w-xs">Tu progreso se guarda localmente en este dispositivo.</p>
     </div>`;
   mount.querySelectorAll('button[data-id]').forEach(btn => {
     btn.addEventListener('click', () => {
