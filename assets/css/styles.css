@@ -1,0 +1,60 @@
+:root {
+  --color-bg: #F5F7FA;
+  --color-card: #FFFFFF;
+  --color-primary: #A7C7E7;
+  --color-secondary: #B5E8C9;
+  --color-accent: #D4C5F9;
+  --color-text: #3A4A5C;
+  --color-text-soft: #7A8A9A;
+  --color-success: #B5E8C9;
+  --color-pending: #E0E8F0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 400;
+  padding-bottom: 4rem; /* espacio para tab-bar fija */
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3 { font-weight: 600; margin: 0; }
+
+.app-container { max-width: 28rem; margin: 0 auto; padding: 1rem; }
+
+.card {
+  background: var(--color-card);
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgba(58,74,92,0.08);
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.fade-in { animation: fadeIn 0.18s ease-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.tab-scroll {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.25rem;
+}
+.tab-scroll::-webkit-scrollbar { display: none; }
+
+.progress-bar {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: var(--color-pending);
+  overflow: hidden;
+}
+.progress-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--color-primary);
+  transition: width 0.3s ease;
+}

@@ -1,0 +1,1 @@
+document.getElementById('app').innerHTML = '<p class="card">Scaffold OK</p>';
