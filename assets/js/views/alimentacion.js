@@ -194,7 +194,7 @@ export default function render(mount, deps) {
     </header>
     <div class="tab-scroll mb-3">
       ${COMIDAS.map(c => `
-        <button data-comida="${c}" class="px-3 py-1.5 rounded-xl text-sm whitespace-nowrap ${comidaSel === c ? 'bg-[var(--c-pri)] text-white' : 'bg-[var(--c-card)] text-[var(--c-soft)] border border-[var(--c-pen)]'}">
+        <button data-comida="${c}" class="px-2 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap ${comidaSel === c ? 'bg-[var(--c-pri)] text-white' : 'bg-[var(--c-card)] text-[var(--c-soft)] border border-[var(--c-pen)]'}">
           ${COMIDAS_LABEL[c]}${esPropio && marcadas.includes(c) ? ' ✓' : ''}
         </button>
       `).join('')}
