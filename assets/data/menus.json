@@ -1,0 +1,662 @@
+{
+  "menus": {
+    "oscar": {
+      "lunes": {
+        "desayuno": {
+          "plato": "Café con leche + huevo tibio + arepa con queso",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Huevo tibio", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Arepa de maíz", "cantidad": "1 mediana", "kcal": 70 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 60 }
+          ],
+          "kcalTotal": 280
+        },
+        "mediasNueves": {
+          "plato": "Papaya + maní natural",
+          "ingredientes": [
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 55 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 95 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Arroz integral + Ensalada + Filete de pescado a la plancha",
+          "ingredientes": [
+            { "i": "Arroz integral", "cantidad": "1 pocillo mediano", "kcal": 150 },
+            { "i": "Ensalada (lechuga, tomate, pepino)", "cantidad": "1 porción", "kcal": 40 },
+            { "i": "Filete de pescado blanco a la plancha", "cantidad": "1 filete", "kcal": 175 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 370
+        },
+        "onces": {
+          "plato": "Yogur griego + fresas",
+          "ingredientes": [
+            { "i": "Yogur griego natural", "cantidad": "1 vaso (100g)", "kcal": 60 },
+            { "i": "Fresas picadas", "cantidad": "1 porción", "kcal": 50 }
+          ],
+          "kcalTotal": 110
+        },
+        "comida": {
+          "plato": "Ensalada fresca + Filete de pescado a la plancha + Agua aromática",
+          "ingredientes": [
+            { "i": "Ensalada fresca", "cantidad": "1/2 taza", "kcal": 20 },
+            { "i": "Filete de pescado blanco a la plancha", "cantidad": "1 filete", "kcal": 105 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 130
+        }
+      },
+      "martes": {
+        "desayuno": {
+          "plato": "Leche descremada + huevo revuelto + 2 tostadas integrales",
+          "ingredientes": [
+            { "i": "Leche descremada", "cantidad": "1 vaso", "kcal": 90 },
+            { "i": "Huevo revuelto en aceite de girasol", "cantidad": "1 unidad", "kcal": 80 },
+            { "i": "Tostadas integrales", "cantidad": "2 unidades", "kcal": 80 }
+          ],
+          "kcalTotal": 250
+        },
+        "mediasNueves": {
+          "plato": "Piña + almendras",
+          "ingredientes": [
+            { "i": "Piña picada", "cantidad": "1 taza", "kcal": 50 },
+            { "i": "Almendras", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Lentejas + Papa + Ensalada de espinaca + Filete de pollo desmechado",
+          "ingredientes": [
+            { "i": "Lentejas cocidas", "cantidad": "1 pocillo pequeño", "kcal": 160 },
+            { "i": "Papa común mediana cocida", "cantidad": "1 unidad", "kcal": 130 },
+            { "i": "Ensalada de espinaca y zanahoria al vapor", "cantidad": "1 porción", "kcal": 35 },
+            { "i": "Filete de pechuga de pollo desmechada", "cantidad": "1 filete", "kcal": 100 },
+            { "i": "Agua aromática fría", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 430
+        },
+        "onces": {
+          "plato": "Té de frutas + melón",
+          "ingredientes": [
+            { "i": "Té de frutas sin azúcar", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Melón picado", "cantidad": "1 porción", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Brócoli al vapor + Filete de pollo a la plancha + Agua sola",
+          "ingredientes": [
+            { "i": "Brócoli al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Filete de pechuga de pollo a la plancha", "cantidad": "1 filete", "kcal": 100 },
+            { "i": "Agua sola", "cantidad": "1 vaso", "kcal": 0 }
+          ],
+          "kcalTotal": 140
+        }
+      },
+      "miercoles": {
+        "desayuno": {
+          "plato": "Café con leche + huevo cocido + arepa con queso",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Huevo cocido", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Arepa de maíz", "cantidad": "1 mediana", "kcal": 70 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 60 }
+          ],
+          "kcalTotal": 280
+        },
+        "mediasNueves": {
+          "plato": "Papaya + maní natural",
+          "ingredientes": [
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 55 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 95 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Plátano maduro horneado + Brócoli y coliflor al vapor + Carne de res magra guisada",
+          "ingredientes": [
+            { "i": "Plátano maduro horneado", "cantidad": "2 tajadas", "kcal": 140 },
+            { "i": "Brócoli y coliflor al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Carne de res magra guisada (pulpa/lomo)", "cantidad": "1 porción", "kcal": 225 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 410
+        },
+        "onces": {
+          "plato": "Yogur griego + fresas",
+          "ingredientes": [
+            { "i": "Yogur griego natural", "cantidad": "1 vaso (100g)", "kcal": 60 },
+            { "i": "Fresas picadas", "cantidad": "1 porción", "kcal": 50 }
+          ],
+          "kcalTotal": 110
+        },
+        "comida": {
+          "plato": "Ensalada fresca + Filete de pescado a la plancha + Agua aromática",
+          "ingredientes": [
+            { "i": "Ensalada fresca", "cantidad": "1/2 taza", "kcal": 20 },
+            { "i": "Filete de pescado a la plancha", "cantidad": "1 filete", "kcal": 105 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 130
+        }
+      },
+      "jueves": {
+        "desayuno": {
+          "plato": "Leche descremada + huevo revuelto + 2 tostadas integrales",
+          "ingredientes": [
+            { "i": "Leche descremada", "cantidad": "1 vaso", "kcal": 90 },
+            { "i": "Huevo revuelto", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Tostadas integrales", "cantidad": "2 unidades", "kcal": 90 }
+          ],
+          "kcalTotal": 250
+        },
+        "mediasNueves": {
+          "plato": "Mandarina + maní natural",
+          "ingredientes": [
+            { "i": "Mandarina grande", "cantidad": "1 unidad", "kcal": 50 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Pasta con salsa de tomate + Ensalada + Filete de pollo a la plancha",
+          "ingredientes": [
+            { "i": "Pasta cocida con salsa de tomate natural", "cantidad": "1 pocillo mediano", "kcal": 180 },
+            { "i": "Ensalada de lechuga y pepino", "cantidad": "1 porción", "kcal": 35 },
+            { "i": "Filete de pechuga de pollo deshuesada a la plancha", "cantidad": "1 filete", "kcal": 170 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 390
+        },
+        "onces": {
+          "plato": "Té de frutas + guayaba",
+          "ingredientes": [
+            { "i": "Té de frutas sin azúcar", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Guayaba mediana", "cantidad": "1 unidad", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Zanahoria y habichuela al vapor + Filete de pollo a la plancha + Agua aromática",
+          "ingredientes": [
+            { "i": "Zanahoria y habichuela al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Filete de pechuga de pollo a la plancha", "cantidad": "1 filete", "kcal": 95 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 140
+        }
+      },
+      "viernes": {
+        "desayuno": {
+          "plato": "Café con leche + huevo tibio + arepa con queso",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Huevo tibio", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Arepa de maíz", "cantidad": "1 mediana", "kcal": 70 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 60 }
+          ],
+          "kcalTotal": 280
+        },
+        "mediasNueves": {
+          "plato": "Melón + almendras",
+          "ingredientes": [
+            { "i": "Melón picado", "cantidad": "1 taza", "kcal": 50 },
+            { "i": "Almendras", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Fríjoles + Papa criolla + Ensalada + Carne de res magra asada",
+          "ingredientes": [
+            { "i": "Fríjoles cocidos", "cantidad": "1 pocillo pequeño", "kcal": 160 },
+            { "i": "Papa criolla cocida", "cantidad": "4 unidades", "kcal": 110 },
+            { "i": "Ensalada de lechuga y pepino", "cantidad": "1 porción", "kcal": 35 },
+            { "i": "Carne de res magra asada", "cantidad": "1 porción", "kcal": 150 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 460
+        },
+        "onces": {
+          "plato": "Yogur griego + fresas",
+          "ingredientes": [
+            { "i": "Yogur griego natural", "cantidad": "1 vaso (100g)", "kcal": 60 },
+            { "i": "Fresas picadas", "cantidad": "1 porción", "kcal": 50 }
+          ],
+          "kcalTotal": 110
+        },
+        "comida": {
+          "plato": "Ensalada fresca + Filete de pescado a la plancha + Agua aromática",
+          "ingredientes": [
+            { "i": "Ensalada fresca", "cantidad": "1/2 taza", "kcal": 20 },
+            { "i": "Filete de pescado blanco a la plancha", "cantidad": "1 filete", "kcal": 105 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 130
+        }
+      },
+      "sabado": {
+        "desayuno": {
+          "plato": "Café con leche + queso campesino + galletas de soda",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 80 },
+            { "i": "Galletas de soda", "cantidad": "3 unidades", "kcal": 70 }
+          ],
+          "kcalTotal": 230
+        },
+        "mediasNueves": {
+          "plato": "Papaya + maní natural",
+          "ingredientes": [
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 55 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 95 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Arroz blanco + Ensalada con aguacate + Filete de pescado al horno",
+          "ingredientes": [
+            { "i": "Arroz blanco", "cantidad": "1 pocillo mediano", "kcal": 160 },
+            { "i": "Ensalada de tomate, cebolla y aguacate", "cantidad": "1 porción", "kcal": 70 },
+            { "i": "Filete de pescado blanco al horno", "cantidad": "1 filete", "kcal": 155 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 390
+        },
+        "onces": {
+          "plato": "Aromática + papaya",
+          "ingredientes": [
+            { "i": "Aromática", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Brócoli al vapor + Filete de pollo a la plancha + Agua sola",
+          "ingredientes": [
+            { "i": "Brócoli al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Filete de pechuga de pollo a la plancha", "cantidad": "1 filete", "kcal": 100 },
+            { "i": "Agua sola", "cantidad": "1 vaso", "kcal": 0 }
+          ],
+          "kcalTotal": 140
+        }
+      },
+      "domingo": {
+        "desayuno": {
+          "plato": "Café con leche + queso campesino + galletas de soda",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 80 },
+            { "i": "Galletas de soda", "cantidad": "3 unidades", "kcal": 70 }
+          ],
+          "kcalTotal": 230
+        },
+        "mediasNueves": {
+          "plato": "Piña + almendras",
+          "ingredientes": [
+            { "i": "Piña picada", "cantidad": "1 taza", "kcal": 50 },
+            { "i": "Almendras", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Yuca cocida + Verduras al vapor + Filete de pollo al horno",
+          "ingredientes": [
+            { "i": "Yuca cocida", "cantidad": "2 astillas", "kcal": 150 },
+            { "i": "Verduras calientes al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Filete de pechuga de pollo al horno", "cantidad": "1 filete", "kcal": 185 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 380
+        },
+        "onces": {
+          "plato": "Aromática + papaya",
+          "ingredientes": [
+            { "i": "Aromática", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Zanahoria y habichuela al vapor + Filete de pescado a la plancha + Agua aromática",
+          "ingredientes": [
+            { "i": "Zanahoria y habichuela al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Filete de pescado a la plancha", "cantidad": "1 filete", "kcal": 85 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 130
+        }
+      }
+    },
+    "sharon": {
+      "lunes": {
+        "desayuno": {
+          "plato": "Café con leche + huevo tibio + arepa con queso",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Huevo tibio", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Arepa de maíz", "cantidad": "1 mediana", "kcal": 70 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 60 }
+          ],
+          "kcalTotal": 280
+        },
+        "mediasNueves": {
+          "plato": "Papaya + maní natural",
+          "ingredientes": [
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 55 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 95 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Arroz integral + Ensalada + Quinoa cocida con verduras",
+          "ingredientes": [
+            { "i": "Arroz integral", "cantidad": "1 pocillo mediano", "kcal": 150 },
+            { "i": "Ensalada (lechuga, tomate, pepino)", "cantidad": "1 porción", "kcal": 40 },
+            { "i": "Quinoa cocida con verduras", "cantidad": "1/2 taza", "kcal": 195 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 390
+        },
+        "onces": {
+          "plato": "Yogur griego + fresas",
+          "ingredientes": [
+            { "i": "Yogur griego natural", "cantidad": "1 vaso (100g)", "kcal": 60 },
+            { "i": "Fresas picadas", "cantidad": "1 porción", "kcal": 50 }
+          ],
+          "kcalTotal": 110
+        },
+        "comida": {
+          "plato": "Ensalada fresca + Quinoa con verduras + Agua aromática",
+          "ingredientes": [
+            { "i": "Ensalada fresca", "cantidad": "1/2 taza", "kcal": 20 },
+            { "i": "Quinoa con verduras", "cantidad": "1/2 taza", "kcal": 115 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 140
+        }
+      },
+      "martes": {
+        "desayuno": {
+          "plato": "Leche descremada + huevo revuelto + 2 tostadas integrales",
+          "ingredientes": [
+            { "i": "Leche descremada", "cantidad": "1 vaso", "kcal": 90 },
+            { "i": "Huevo revuelto en aceite de girasol", "cantidad": "1 unidad", "kcal": 80 },
+            { "i": "Tostadas integrales", "cantidad": "2 unidades", "kcal": 80 }
+          ],
+          "kcalTotal": 250
+        },
+        "mediasNueves": {
+          "plato": "Piña + almendras",
+          "ingredientes": [
+            { "i": "Piña picada", "cantidad": "1 taza", "kcal": 50 },
+            { "i": "Almendras", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Lentejas + Papa + Ensalada de espinaca + Carve guisado",
+          "ingredientes": [
+            { "i": "Lentejas cocidas", "cantidad": "1 pocillo pequeño", "kcal": 160 },
+            { "i": "Papa común mediana cocida", "cantidad": "1 unidad", "kcal": 130 },
+            { "i": "Ensalada de espinaca y zanahoria al vapor", "cantidad": "1 porción", "kcal": 35 },
+            { "i": "Carve (carne de soya) guisado", "cantidad": "1/2 taza", "kcal": 120 },
+            { "i": "Agua aromática fría", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 450
+        },
+        "onces": {
+          "plato": "Té de frutas + melón",
+          "ingredientes": [
+            { "i": "Té de frutas sin azúcar", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Melón picado", "cantidad": "1 porción", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Brócoli al vapor + Carve salteado con cebolla y pimentón + Agua sola",
+          "ingredientes": [
+            { "i": "Brócoli al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Carve salteado con cebolla y pimentón", "cantidad": "1/2 taza", "kcal": 90 },
+            { "i": "Agua sola", "cantidad": "1 vaso", "kcal": 0 }
+          ],
+          "kcalTotal": 130
+        }
+      },
+      "miercoles": {
+        "desayuno": {
+          "plato": "Café con leche + huevo cocido + arepa con queso",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Huevo cocido", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Arepa de maíz", "cantidad": "1 mediana", "kcal": 70 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 60 }
+          ],
+          "kcalTotal": 280
+        },
+        "mediasNueves": {
+          "plato": "Papaya + maní natural",
+          "ingredientes": [
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 55 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 95 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Plátano maduro horneado + Brócoli y coliflor al vapor + Embutidos vegetarianos a la plancha",
+          "ingredientes": [
+            { "i": "Plátano maduro horneado", "cantidad": "2 tajadas", "kcal": 140 },
+            { "i": "Brócoli y coliflor al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Embutidos vegetarianos a la plancha", "cantidad": "2 unidades", "kcal": 195 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 380
+        },
+        "onces": {
+          "plato": "Yogur griego + fresas",
+          "ingredientes": [
+            { "i": "Yogur griego natural", "cantidad": "1 vaso (100g)", "kcal": 60 },
+            { "i": "Fresas picadas", "cantidad": "1 porción", "kcal": 50 }
+          ],
+          "kcalTotal": 110
+        },
+        "comida": {
+          "plato": "Ensalada fresca + Quinoa con verduras + Agua aromática",
+          "ingredientes": [
+            { "i": "Ensalada fresca", "cantidad": "1/2 taza", "kcal": 20 },
+            { "i": "Quinoa con verduras", "cantidad": "1/2 taza", "kcal": 115 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 140
+        }
+      },
+      "jueves": {
+        "desayuno": {
+          "plato": "Leche descremada + huevo revuelto + 2 tostadas integrales",
+          "ingredientes": [
+            { "i": "Leche descremada", "cantidad": "1 vaso", "kcal": 90 },
+            { "i": "Huevo revuelto", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Tostadas integrales", "cantidad": "2 unidades", "kcal": 90 }
+          ],
+          "kcalTotal": 250
+        },
+        "mediasNueves": {
+          "plato": "Mandarina + maní natural",
+          "ingredientes": [
+            { "i": "Mandarina grande", "cantidad": "1 unidad", "kcal": 50 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Pasta con salsa de tomate + Ensalada + Quinoa salteada con champiñones",
+          "ingredientes": [
+            { "i": "Pasta cocida con salsa de tomate natural", "cantidad": "1 pocillo mediano", "kcal": 180 },
+            { "i": "Ensalada de lechuga y pepino", "cantidad": "1 porción", "kcal": 35 },
+            { "i": "Quinoa salteada con champiñones", "cantidad": "1/2 taza", "kcal": 190 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 410
+        },
+        "onces": {
+          "plato": "Té de frutas + guayaba",
+          "ingredientes": [
+            { "i": "Té de frutas sin azúcar", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Guayaba mediana", "cantidad": "1 unidad", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Zanahoria y habichuela al vapor + Embutidos vegetarianos a la plancha + Agua aromática",
+          "ingredientes": [
+            { "i": "Zanahoria y habichuela al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Embutidos vegetarianos a la plancha", "cantidad": "2 unidades", "kcal": 125 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 170
+        }
+      },
+      "viernes": {
+        "desayuno": {
+          "plato": "Café con leche + huevo tibio + arepa con queso",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Huevo tibio", "cantidad": "1 unidad", "kcal": 70 },
+            { "i": "Arepa de maíz", "cantidad": "1 mediana", "kcal": 70 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 60 }
+          ],
+          "kcalTotal": 280
+        },
+        "mediasNueves": {
+          "plato": "Melón + almendras",
+          "ingredientes": [
+            { "i": "Melón picado", "cantidad": "1 taza", "kcal": 50 },
+            { "i": "Almendras", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Fríjoles + Papa criolla + Ensalada + Carve en salsa de tomate",
+          "ingredientes": [
+            { "i": "Fríjoles cocidos", "cantidad": "1 pocillo pequeño", "kcal": 160 },
+            { "i": "Papa criolla cocida", "cantidad": "4 unidades", "kcal": 110 },
+            { "i": "Ensalada de lechuga y pepino", "cantidad": "1 porción", "kcal": 35 },
+            { "i": "Carve en salsa de tomate natural", "cantidad": "1/2 taza", "kcal": 130 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 440
+        },
+        "onces": {
+          "plato": "Yogur griego + fresas",
+          "ingredientes": [
+            { "i": "Yogur griego natural", "cantidad": "1 vaso (100g)", "kcal": 60 },
+            { "i": "Fresas picadas", "cantidad": "1 porción", "kcal": 50 }
+          ],
+          "kcalTotal": 110
+        },
+        "comida": {
+          "plato": "Ensalada fresca + Quinoa con verduras + Agua aromática",
+          "ingredientes": [
+            { "i": "Ensalada fresca", "cantidad": "1/2 taza", "kcal": 20 },
+            { "i": "Quinoa con verduras", "cantidad": "1/2 taza", "kcal": 115 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 140
+        }
+      },
+      "sabado": {
+        "desayuno": {
+          "plato": "Café con leche + queso campesino + galletas de soda",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 80 },
+            { "i": "Galletas de soda", "cantidad": "3 unidades", "kcal": 70 }
+          ],
+          "kcalTotal": 230
+        },
+        "mediasNueves": {
+          "plato": "Papaya + maní natural",
+          "ingredientes": [
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 55 },
+            { "i": "Maní natural", "cantidad": "1 puñado (15g)", "kcal": 95 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Arroz blanco + Ensalada con aguacate + Embutidos vegetarianos a la plancha",
+          "ingredientes": [
+            { "i": "Arroz blanco", "cantidad": "1 pocillo mediano", "kcal": 160 },
+            { "i": "Ensalada de tomate, cebolla y aguacate", "cantidad": "1 porción", "kcal": 70 },
+            { "i": "Embutidos vegetarianos a la plancha", "cantidad": "2 unidades", "kcal": 185 },
+            { "i": "Agua con limón", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 420
+        },
+        "onces": {
+          "plato": "Aromática + papaya",
+          "ingredientes": [
+            { "i": "Aromática", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Brócoli al vapor + Carve salteado con cebolla y pimentón + Agua sola",
+          "ingredientes": [
+            { "i": "Brócoli al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Carve salteado con cebolla y pimentón", "cantidad": "1/2 taza", "kcal": 90 },
+            { "i": "Agua sola", "cantidad": "1 vaso", "kcal": 0 }
+          ],
+          "kcalTotal": 130
+        }
+      },
+      "domingo": {
+        "desayuno": {
+          "plato": "Café con leche + queso campesino + galletas de soda",
+          "ingredientes": [
+            { "i": "Café con leche descremada", "cantidad": "1 pocillo", "kcal": 80 },
+            { "i": "Queso campesino", "cantidad": "1 tajada", "kcal": 80 },
+            { "i": "Galletas de soda", "cantidad": "3 unidades", "kcal": 70 }
+          ],
+          "kcalTotal": 230
+        },
+        "mediasNueves": {
+          "plato": "Piña + almendras",
+          "ingredientes": [
+            { "i": "Piña picada", "cantidad": "1 taza", "kcal": 50 },
+            { "i": "Almendras", "cantidad": "1 puñado (15g)", "kcal": 100 }
+          ],
+          "kcalTotal": 150
+        },
+        "almuerzo": {
+          "plato": "Yuca cocida + Verduras al vapor + Hamburguesa de carve casera a la plancha",
+          "ingredientes": [
+            { "i": "Yuca cocida", "cantidad": "2 astillas", "kcal": 150 },
+            { "i": "Verduras calientes al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Hamburguesa de carve casera a la plancha", "cantidad": "1 unidad", "kcal": 195 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 390
+        },
+        "onces": {
+          "plato": "Aromática + papaya",
+          "ingredientes": [
+            { "i": "Aromática", "cantidad": "1 taza", "kcal": 5 },
+            { "i": "Papaya picada", "cantidad": "1 taza", "kcal": 75 }
+          ],
+          "kcalTotal": 80
+        },
+        "comida": {
+          "plato": "Zanahoria y habichuela al vapor + Embutidos vegetarianos a la plancha + Agua aromática",
+          "ingredientes": [
+            { "i": "Zanahoria y habichuela al vapor", "cantidad": "1/2 taza", "kcal": 40 },
+            { "i": "Embutidos vegetarianos a la plancha", "cantidad": "2 unidades", "kcal": 125 },
+            { "i": "Agua aromática", "cantidad": "1 vaso", "kcal": 5 }
+          ],
+          "kcalTotal": 170
+        }
+      }
+    }
+  }
+}
