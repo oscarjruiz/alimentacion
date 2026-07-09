@@ -44,8 +44,15 @@ export default function render(mount, deps) {
   const rutinaHoy = state.data.routines.rutinas[reto.dia - 1];
   const ejTotal = rutinaHoy ? rutinaHoy.ejercicios.length : 0;
 
+  let banner = '';
+  if (reto.estado === 'futuro') {
+    banner = `<div class="card text-center text-sm text-[#7A8A9A] mb-3">El reto aún no comienza. ${reto.fase}. El registro de progreso estará disponible desde el inicio.</div>`;
+  } else if (reto.estado === 'completado') {
+    banner = `<div class="card text-center text-sm text-[#B5E8C9] mb-3">🎉 ${reto.fase}. ¡Felicidades!</div>`;
+  }
+
   mount.innerHTML = `
-    <header class="flex items-center justify-between mb-3">
+    ${banner}<header class="flex items-center justify-between mb-3">
       <div>
         <a href="#selector" class="text-sm text-[#7A8A9A] hover:underline">${perfilNombre} ⮕</a>
         <h2 class="text-lg text-[#3A4A5C]">${reto.fase}</h2>

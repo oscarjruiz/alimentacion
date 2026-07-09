@@ -12,6 +12,7 @@ export default function render(mount, deps) {
           ${p.nombre}
         </button>
       `).join('')}
+      <p class="text-xs text-[#7A8A9A] text-center max-w-xs">Tu progreso se guarda localmente en este dispositivo.</p>
     </div>`;
   mount.querySelectorAll('button[data-id]').forEach(btn => {
     btn.addEventListener('click', () => {
