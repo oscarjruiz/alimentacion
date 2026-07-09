@@ -1,7 +1,7 @@
 const KEY = 'reto90_nutricion';
 const VERSION = 1;
 
-const state = { data: null, perfil: null, storage: null };
+export const state = { data: null, perfil: null, storage: null };
 
 function loadStorage() {
   try {
