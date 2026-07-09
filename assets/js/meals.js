@@ -35,11 +35,11 @@ export function getDiaSemanaForReto(diaReto) {
 export function getMenu(fecha) {
   const perfil = state.perfil;
   const diaSem = getDiaSemanaForFecha(fecha);
-  return state.data.menus[perfil][diaSem];
+  return state.data.menus.menus[perfil][diaSem];
 }
 
 export function getMenuReto(diaReto) {
   const perfil = state.perfil;
   const diaSem = getDiaSemanaForReto(diaReto);
-  return state.data.menus[perfil][diaSem];
+  return state.data.menus.menus[perfil][diaSem];
 }
