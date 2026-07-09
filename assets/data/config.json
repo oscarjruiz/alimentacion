@@ -1,0 +1,13 @@
+{
+  "fechaInicio": "2026-07-09",
+  "objetivosDiarios": {
+    "kcalMin": 1050,
+    "kcalMax": 1350,
+    "aguaVasos": 8,
+    "pasos": 8000
+  },
+  "perfiles": [
+    { "id": "oscar", "nombre": "OSCAR" },
+    { "id": "sharon", "nombre": "SHARON" }
+  ]
+}

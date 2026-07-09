@@ -1,0 +1,10 @@
+{
+  "habitos": [
+    { "id": "skincare-am", "nombre": "Skincare AM", "icono": "☀️" },
+    { "id": "skincare-pm", "nombre": "Skincare PM", "icono": "🌙" },
+    { "id": "hidratacion", "nombre": "Hidratación (8 vasos)", "icono": "💧" },
+    { "id": "sueno", "nombre": "Dormir 7-8h", "icono": "🛏️" },
+    { "id": "meditacion", "nombre": "Meditación 10 min", "icono": "🧘" },
+    { "id": "ducha", "nombre": "Ducha", "icono": "🚿" }
+  ]
+}
