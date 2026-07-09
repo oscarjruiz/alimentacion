@@ -28,7 +28,7 @@ export default function render(mount, deps) {
   const perfilActivo = getPerfilActivo();
   const perfilNombre = state.data.config.perfiles.find(p => p.id === perfilActivo)?.nombre || perfilActivo;
   const habitos = state.data.habits.habitos;
-  const habCompleted = getHabitos(fecha).length;
+  const habCompleted = habitos.filter(h => h.id === 'hidratacion' ? (getAgua(fecha) || 0) >= state.data.config.objetivosDiarios.aguaVasos : getHabitos(fecha).includes(h.id)).length;
   const habTotal = habitos.length;
   const agua = getAgua(fecha);
   const aguaObj = state.data.config.objetivosDiarios.aguaVasos;

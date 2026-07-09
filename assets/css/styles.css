@@ -5,8 +5,10 @@
   --c-ok: #73D05A;
   --c-pen: #353B54;
   --c-bg: #1A1B26;
+  --c-bg2: #222436;
   --c-accent: #9D7CD8;
   --c-card: #24283B;
+  --c-card2: #2A2E42;
 }
 
 .dark {
@@ -16,21 +18,25 @@
   --c-ok: #73D05A;
   --c-pen: #292E42;
   --c-bg: #161720;
+  --c-bg2: #1E2030;
   --c-accent: #9D7CD8;
   --c-card: #1E2033;
+  --c-card2: #242638;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background: var(--c-bg);
+  background: linear-gradient(135deg, var(--c-bg) 0%, var(--c-bg2) 50%, var(--c-bg) 100%);
   color: var(--c-text);
   font-family: 'Inter', system-ui, sans-serif;
   font-weight: 400;
+  min-height: 100vh;
   padding-bottom: 4rem;
   -webkit-text-size-adjust: 100%;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.3s, color 0.2s;
+  background-attachment: fixed;
 }
 
 h1, h2, h3 { font-weight: 600; margin: 0; }
@@ -38,13 +44,17 @@ h1, h2, h3 { font-weight: 600; margin: 0; }
 .app-container { max-width: 28rem; margin: 0 auto; padding: 1rem; }
 
 .card {
-  background: var(--c-card);
+  background: linear-gradient(180deg, var(--c-card) 0%, var(--c-card2) 100%);
   border: 1px solid var(--c-pen);
   border-left: 3px solid var(--c-pri);
   border-radius: 12px;
   padding: 1rem;
   margin-bottom: 0.75rem;
   transition: background 0.2s, border-color 0.2s;
+}
+
+.card:nth-child(odd) {
+  border-left-color: var(--c-accent);
 }
 
 .fade-in { animation: fadeIn 0.18s ease-out; }
@@ -68,7 +78,7 @@ h1, h2, h3 { font-weight: 600; margin: 0; }
 .progress-bar > span {
   display: block;
   height: 100%;
-  background: var(--c-pri);
+  background: linear-gradient(90deg, var(--c-pri), var(--c-accent));
   border-radius: 9999px;
   transition: width 0.3s ease;
 }
