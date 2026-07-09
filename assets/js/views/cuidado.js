@@ -41,7 +41,7 @@ export default function render(mount, deps) {
               <div class="flex flex-wrap gap-1 mt-2" id="vasos">${vasos}</div>
               <div class="flex gap-2 mt-2">
                 <button id="agua-menos" class="px-3 py-1 rounded-lg bg-[var(--c-pen)]">-</button>
-                <button id="agua-mas" class="px-3 py-1 rounded-lg bg-[var(--c-pri)] text-white">+</button>
+                <button id="agua-mas" class="px-3 py-1 rounded-lg btn-pri text-white">+</button>
               </div>
             </li>`;
         }
@@ -49,7 +49,7 @@ export default function render(mount, deps) {
         return `
           <li class="card flex justify-between items-center" data-h="${h.id}">
             <span class="text-[var(--c-text)]">${h.icono} ${h.nombre}</span>
-            <button data-toggle="${h.id}" class="w-7 h-7 rounded-full ${ok ? 'bg-[var(--c-ok)]' : 'bg-[var(--c-pen)]'} text-sm">${ok ? '✓' : ''}</button>
+            <button data-toggle="${h.id}" class="w-7 h-7 rounded-full ${ok ? 'btn-ok' : 'bg-[var(--c-pen)]'} text-sm">${ok ? '✓' : ''}</button>
           </li>`;
       }).join('')}
     </ul>

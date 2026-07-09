@@ -53,7 +53,7 @@ function semanalChips(fecha) {
     const isFuture = dia > hoy;
     html += `
       <div class="flex flex-col items-center gap-0.5 px-2 py-1 rounded-lg text-xs
-        ${isToday ? 'bg-[var(--c-pri)] text-white' : done ? 'bg-[var(--c-ok)] text-[var(--c-text)]' : isFuture ? 'bg-[var(--c-pen)] text-[var(--c-soft)] opacity-50' : 'bg-[var(--c-pen)] text-[var(--c-soft)]'}">
+        ${isToday ? 'btn-pri text-white' : done ? 'btn-ok text-[var(--c-text)]' : isFuture ? 'bg-[var(--c-pen)] text-[var(--c-soft)] opacity-50' : 'bg-[var(--c-pen)] text-[var(--c-soft)]'}">
         <span>${DIAS_SEMANA[dia.getDay()]}</span>
         <span>${dia.getDate()}</span>
       </div>`;
@@ -134,7 +134,7 @@ export default function render(mount, deps) {
                 <div class="text-[var(--c-text)] text-sm">${e.e}</div>
                 <div class="text-xs text-[var(--c-soft)]">${e.series} × ${e.reps}</div>
               </div>
-              <button data-ex="${e.id}" class="w-7 h-7 rounded-full ${ok ? 'bg-[var(--c-ok)]' : 'bg-[var(--c-pen)]'} text-sm shrink-0 ml-2">${ok ? '✓' : ''}</button>
+              <button data-ex="${e.id}" class="w-7 h-7 rounded-full ${ok ? 'btn-ok' : 'bg-[var(--c-pen)]'} text-sm shrink-0 ml-2">${ok ? '✓' : ''}</button>
             </div>
             ${open ? `<div class="mt-2 pt-2 border-t border-[var(--c-pen)] text-xs text-[var(--c-soft)]">💡 ${e.tips}</div>` : ''}
           </li>`;
@@ -146,16 +146,16 @@ export default function render(mount, deps) {
         <span class="text-sm text-[var(--c-soft)]">Descanso</span>
         <span class="text-lg font-mono text-[var(--c-text)]">${timerInterval ? fmtTimer(timerSegundos) : fmtTimer(timerTotal)}</span>
         <div class="flex gap-1">
-          <button id="timer-60" class="px-2 py-1 rounded-lg text-xs ${timerTotal === 60 && !timerInterval ? 'bg-[var(--c-pri)] text-white' : 'bg-[var(--c-pen)] text-[var(--c-soft)]'}">60s</button>
-          <button id="timer-90" class="px-2 py-1 rounded-lg text-xs ${timerTotal === 90 && !timerInterval ? 'bg-[var(--c-pri)] text-white' : 'bg-[var(--c-pen)] text-[var(--c-soft)]'}">90s</button>
+          <button id="timer-60" class="px-2 py-1 rounded-lg text-xs ${timerTotal === 60 && !timerInterval ? 'btn-pri text-white' : 'bg-[var(--c-pen)] text-[var(--c-soft)]'}">60s</button>
+          <button id="timer-90" class="px-2 py-1 rounded-lg text-xs ${timerTotal === 90 && !timerInterval ? 'btn-pri text-white' : 'bg-[var(--c-pen)] text-[var(--c-soft)]'}">90s</button>
         </div>
-        <button id="timer-start" class="px-3 py-1 rounded-lg text-xs font-medium ${timerInterval ? 'bg-[var(--c-pen)] text-[var(--c-text)]' : 'bg-[var(--c-ok)] text-[var(--c-text)]'}">
+        <button id="timer-start" class="px-3 py-1 rounded-lg text-xs font-medium ${timerInterval ? 'bg-[var(--c-pen)] text-[var(--c-text)]' : 'btn-ok text-[var(--c-text)]'}">
           ${timerInterval ? '⏸️' : '▶️'}
         </button>
       </div>
     </div>
 
-    <button id="completar" class="mt-3 w-full py-3 rounded-xl font-medium ${rutinaOk ? 'bg-[var(--c-ok)] text-[var(--c-text)]' : 'bg-[var(--c-pri)] text-white'}">
+    <button id="completar" class="mt-3 w-full py-3 rounded-xl font-medium ${rutinaOk ? 'btn-ok text-[var(--c-text)]' : 'btn-pri text-white'}">
       ${rutinaOk ? 'Rutina completada ✓' : 'Completar rutina'}
     </button>
 
@@ -164,7 +164,7 @@ export default function render(mount, deps) {
       <div class="flex gap-2 mb-2">
         <input id="peso-input" type="number" inputmode="decimal" step="0.1" placeholder="Peso en kg" value="${pesoActual || ''}"
           class="flex-1 border border-[var(--c-pen)] rounded-lg px-3 py-1.5 text-sm bg-[var(--c-card)] text-[var(--c-text)] outline-none">
-        <button id="save-peso" class="px-4 py-1.5 rounded-lg bg-[var(--c-pri)] text-white text-sm font-medium">Guardar</button>
+        <button id="save-peso" class="px-4 py-1.5 rounded-lg btn-pri text-white text-sm font-medium">Guardar</button>
       </div>
       ${pesosRecientes.length >= 2 ? `
         <div class="mt-2">${pesoChart(pesosRecientes)}</div>

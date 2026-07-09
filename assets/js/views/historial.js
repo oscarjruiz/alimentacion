@@ -95,7 +95,7 @@ export default function render(mount, deps) {
     </header>
     <div class="tab-scroll mb-3">
       ${dias.map(f => `
-        <button data-fecha="${f}" class="px-3 py-1.5 rounded-xl text-xs whitespace-nowrap ${diaSel === f ? 'bg-[var(--c-pri)] text-white' : 'bg-[var(--c-card)] text-[var(--c-soft)] border border-[var(--c-pen)]'}">${f.slice(5)}</button>
+        <button data-fecha="${f}" class="px-3 py-1.5 rounded-xl text-xs whitespace-nowrap ${diaSel === f ? 'btn-pri text-white' : 'bg-[var(--c-card)] text-[var(--c-soft)] border border-[var(--c-pen)]'}">${f.slice(5)}</button>
       `).join('')}
     </div>
     ${resumen ? `

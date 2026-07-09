@@ -113,14 +113,14 @@ function renderEditPanel(fecha, comida, plato) {
         <datalist id="foods-datalist">
           ${foods.map(f => `<option value="${f.n}">${f.kcal} kcal</option>`).join('')}
         </datalist>
-        <button id="add-food-btn" class="px-4 py-1.5 rounded-lg bg-[var(--c-pri)] text-white text-sm font-medium">Agregar</button>
+        <button id="add-food-btn" class="px-4 py-1.5 rounded-lg btn-pri text-white text-sm font-medium">Agregar</button>
       </div>
       <div class="flex justify-between items-center mt-3 pt-3 border-t border-[var(--c-pen)]">
         <span class="text-sm font-semibold text-[var(--c-text)]">Total: ${kcal} kcal</span>
         <span class="text-xs text-[var(--c-soft)]">${currentFoods.length} alimentos</span>
       </div>
       <div class="flex gap-2 mt-3">
-        <button id="save-edit" class="flex-1 py-2 rounded-xl text-sm font-medium bg-[var(--c-ok)] text-[var(--c-text)]">Guardar</button>
+        <button id="save-edit" class="flex-1 py-2 rounded-xl text-sm font-medium btn-ok text-[var(--c-text)]">Guardar</button>
         <button id="cancel-edit" class="flex-1 py-2 rounded-xl text-sm font-medium bg-[var(--c-pen)] text-[var(--c-text)]">Cancelar</button>
       </div>
     </div>
@@ -139,7 +139,7 @@ function renderGusticoInput(fecha, comida, plato) {
       <input id="gustico-kcal" type="number" inputmode="numeric" placeholder="Calorías" value="${gusticoState.kcal}"
         class="w-full border border-[var(--c-pen)] rounded-lg px-3 py-1.5 text-sm bg-[var(--c-card)] text-[var(--c-text)] outline-none mb-3">
       <div class="flex gap-2">
-        <button id="save-gustico" class="flex-1 py-2 rounded-xl text-sm font-medium bg-[var(--c-ok)] text-[var(--c-text)]">Guardar gustico</button>
+        <button id="save-gustico" class="flex-1 py-2 rounded-xl text-sm font-medium btn-ok text-[var(--c-text)]">Guardar gustico</button>
         <button id="cancel-gustico" class="flex-1 py-2 rounded-xl text-sm font-medium bg-[var(--c-pen)] text-[var(--c-text)]">Cancelar</button>
       </div>
     </div>
@@ -188,13 +188,13 @@ export default function render(mount, deps) {
   mount.innerHTML = `
     <header class="mb-3 flex justify-between items-center">
       <h2 class="text-lg text-[var(--c-text)]">Alimentación · Día ${retoDia}</h2>
-      <button id="toggle-menu" class="px-3 py-1.5 rounded-xl text-xs font-medium bg-[var(--c-accent)] text-[var(--c-text)]">
+      <button id="toggle-menu" class="px-3 py-1.5 rounded-xl text-xs font-medium btn-accent text-[var(--c-text)]">
         ${esPropio ? 'Mi menú' : nombreOtro}
       </button>
     </header>
     <div class="tab-scroll mb-3">
       ${COMIDAS.map(c => `
-        <button data-comida="${c}" class="px-2 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap ${comidaSel === c ? 'bg-[var(--c-pri)] text-white' : 'bg-[var(--c-card)] text-[var(--c-soft)] border border-[var(--c-pen)]'}">
+        <button data-comida="${c}" class="px-2 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap ${comidaSel === c ? 'btn-pri text-white' : 'bg-[var(--c-card)] text-[var(--c-soft)] border border-[var(--c-pen)]'}">
           ${COMIDAS_LABEL[c]}${esPropio && marcadas.includes(c) ? ' ✓' : ''}
         </button>
       `).join('')}
@@ -207,7 +207,7 @@ export default function render(mount, deps) {
       <div class="card">
         <div class="flex justify-between items-start">
           <h3 class="font-semibold text-[var(--c-text)] ${overrideKcal != null ? 'line-through opacity-60' : ''}">${plato.plato}</h3>
-          <span class="rounded-full px-3 py-1 text-sm bg-[var(--c-accent)] text-[var(--c-text)]">${overrideKcal != null ? overrideKcal : plato.kcalTotal} kcal</span>
+          <span class="rounded-full px-3 py-1 text-sm btn-accent text-[var(--c-text)]">${overrideKcal != null ? overrideKcal : plato.kcalTotal} kcal</span>
         </div>
         ${gustico ? `
           <div class="text-xs text-[var(--c-soft)] mt-2 mb-1">Gustico:</div>
@@ -232,7 +232,7 @@ export default function render(mount, deps) {
           </ul>
         `}
         ${esPropio ? `
-          <button id="toggle-comida" class="mt-3 w-full py-2 rounded-xl font-medium ${marcada ? 'bg-[var(--c-ok)] text-[var(--c-text)]' : 'bg-[var(--c-pri)] text-white'}">
+          <button id="toggle-comida" class="mt-3 w-full py-2 rounded-xl font-medium ${marcada ? 'btn-ok text-[var(--c-text)]' : 'btn-pri text-white'}">
             ${marcada ? 'Comida consumida ✓' : 'Marcar como consumida'}
           </button>
           ${!gustico ? `

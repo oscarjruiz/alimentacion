@@ -87,3 +87,14 @@ input[type="number"] { color: var(--c-text); }
 input[type="number"]::placeholder { color: var(--c-soft); }
 
 ::-webkit-calendar-picker-indicator { filter: invert(1); }
+
+.btn-pri {
+  background: linear-gradient(135deg, var(--c-pri), #6B8FD6);
+  color: white;
+}
+.btn-ok {
+  background: linear-gradient(135deg, var(--c-ok), #5DBF3E);
+}
+.btn-accent {
+  background: linear-gradient(135deg, var(--c-accent), #8A68C8);
+}
