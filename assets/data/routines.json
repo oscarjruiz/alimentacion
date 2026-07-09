@@ -1,0 +1,2086 @@
+{
+  "rutinas": [
+    {
+      "dia": 1,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 2,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 3,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 4,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 5,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 6,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 7,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 8,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 9,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 10,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 11,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 12,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 13,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 14,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 15,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 16,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 17,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 18,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 19,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 20,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 21,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 22,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 23,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 24,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 25,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 26,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 27,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 28,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 29,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 30,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 31,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 32,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 33,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 34,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 35,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 36,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 37,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 38,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 39,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 40,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 41,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 42,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 43,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 44,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 45,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 46,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 47,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 48,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 49,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 50,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 51,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 52,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 53,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 54,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 55,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 56,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 57,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 58,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 59,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 60,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 61,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 62,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 63,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 64,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 65,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 66,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 67,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 68,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 69,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 70,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 71,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 72,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 73,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 74,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 75,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 76,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 77,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 78,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 79,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 80,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 81,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 82,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 83,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    },
+    {
+      "dia": 84,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 85,
+      "nombre": "Full Body",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Plancha",
+          "series": 3,
+          "reps": "30s"
+        }
+      ]
+    },
+    {
+      "dia": 86,
+      "nombre": "Cardio",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Jumping jacks",
+          "series": 3,
+          "reps": "40"
+        },
+        {
+          "id": "ex-2",
+          "e": "Burpees",
+          "series": 3,
+          "reps": "10"
+        },
+        {
+          "id": "ex-3",
+          "e": "Mountain climbers",
+          "series": 3,
+          "reps": "20"
+        }
+      ]
+    },
+    {
+      "dia": 87,
+      "nombre": "Core",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Crunches",
+          "series": 3,
+          "reps": "20"
+        },
+        {
+          "id": "ex-2",
+          "e": "Plancha lateral",
+          "series": 3,
+          "reps": "20s"
+        },
+        {
+          "id": "ex-3",
+          "e": "Elevación de piernas",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 88,
+      "nombre": "Pierna",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Sentadillas",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-2",
+          "e": "Zancadas",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-3",
+          "e": "Puentes de glúteo",
+          "series": 3,
+          "reps": "15"
+        }
+      ]
+    },
+    {
+      "dia": 89,
+      "nombre": "Empuje/Tirón",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Flexiones",
+          "series": 3,
+          "reps": "12"
+        },
+        {
+          "id": "ex-2",
+          "e": "Remo con botella",
+          "series": 3,
+          "reps": "15"
+        },
+        {
+          "id": "ex-3",
+          "e": "Press de hombro",
+          "series": 3,
+          "reps": "12"
+        }
+      ]
+    },
+    {
+      "dia": 90,
+      "nombre": "Descanso Activo",
+      "ejercicios": [
+        {
+          "id": "ex-1",
+          "e": "Caminata",
+          "series": 1,
+          "reps": "20min"
+        },
+        {
+          "id": "ex-2",
+          "e": "Estiramiento",
+          "series": 1,
+          "reps": "10min"
+        }
+      ]
+    }
+  ]
+}
